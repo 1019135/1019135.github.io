@@ -1,0 +1,22 @@
+body{
+  background: #02043d
+}
+
+.navg_text{
+  color: white;
+  position: relative;
+  display: inline;
+  padding: 25px;
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Work Sans', sans-serif;;
+}
+
+.navg{
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+a{
+  text-decoration: none;
+}
