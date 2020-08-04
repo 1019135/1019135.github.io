@@ -5,7 +5,9 @@
 
 .homebg1 {
   background: url(http://www.thenocturnaltimes.com/wp-content/uploads/2017/06/New-York-Nightlife-3-via-World-Visits.jpg);
-  object-fit: cover;
+  background-size: cover;
+  height: 150%;
+  background-repeat: no-repeat;
 }
 
 .homebg2 {
@@ -68,16 +70,15 @@ a {
 }
 
 .bG {
-  vertical-align: middle;
-  max-width: 100%;
-  padding: 5px 0px 0px 0px;
+  float: ;
+  max-width: 70%;
   height: auto;
 }
 
 p {
   text-align: left;
   padding: 0px 0px 0px 0px;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: white;
   font-family: open sans;
   margin: 0;
@@ -102,4 +103,5 @@ footer {
 }
 .social {
   text-align: center;
+  color: rgb(255, 255, 255);
 }
