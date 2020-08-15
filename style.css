@@ -3,16 +3,29 @@
   padding: 0;
 }
 
-.homebg1 {
-  background: url(http://www.thenocturnaltimes.com/wp-content/uploads/2017/06/New-York-Nightlife-3-via-World-Visits.jpg);
-  background-size: cover;
-  height: 150%;
-  background-repeat: no-repeat;
+html{
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
 
+body{
+  min-height: 100%;
+  margin: 0;
+  background: linear-gradient(#02043d, rgba(1, 1, 1, 1));
+  background-size: cover;
+}
+
+/*.homebg1 {
+  background: url(http://www.thenocturnaltimes.com/wp-content/uploads/2017/06/New-York-Nightlife-3-via-World-Visits.jpg);
+  height: 150%;
+  background-repeat: no-repeat;
+}*/
+
 .homebg2 {
-  background: linear-gradient(#02043d, rgba(0, 0, 0, 0));
-  background-size: 100%;
+  
+  min-height: 100%;
 }
 
 .heading {
