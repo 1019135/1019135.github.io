@@ -85,6 +85,7 @@ a {
   float: ;
   max-width: 70%;
   height: auto;
+  border: 5px solid #ffd700
 }
 
 p {
