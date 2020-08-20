@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+}
+
 body{
-  background: #02043d;
+  min-height: 100%;
+  margin: 0;
+  background:#02043d;
+  background-size: cover;
 }
 
 .navg_text{
@@ -9,7 +23,7 @@ body{
   padding: 25px;
   margin: 0;
   font-size: 30px;
-  font-family: 'Work Sans', sans-serif;;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .navg{
@@ -19,4 +33,62 @@ body{
 
 a{
   text-decoration: none;
+}
+
+#navgt {
+  color: white;
+}
+
+#navgt2 {
+  color: white;
+}
+
+#navgt3 {
+  color: white;
+}
+
+p {
+  text-align: left;
+  padding: 0px 0px 0px 12px;
+  font-size: 1.2rem;
+  color: white;
+  font-family: open sans;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  color: #ffd700;
+  padding: 0px 0px 0px 12px;
+  font-size: 2.7rem;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+h5 {
+  color: #ffd700;
+  padding: 0px 0px 0px 12px;
+  font-size: 1.9rem;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+span{
+  color: #f7d200;
+  padding-left: 12px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 2.2rem;
+}
+
+.workexp span{
+  color: rgb(194, 194, 194);
+  padding-left: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+}
+
+.activ span{
+  color: rgb(194, 194, 194);
+  padding-left: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
 }

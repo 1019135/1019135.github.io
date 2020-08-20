@@ -1,6 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+    /* To make use of full height of page*/
+    min-height: 100%;
+    margin: 0;
+}
+
 body{
+  min-height: 100%;
+  margin: 0;
   background: linear-gradient(#02043d, rgba(1, 1, 1, 1));
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navg_text{
@@ -22,18 +35,30 @@ a{
   text-decoration: none;
 }
 
+#navgt {
+  color: white;
+}
+
+#navgt2 {
+  color: white;
+}
+
+#navgt3 {
+  color: white;
+}
+
 p {
   text-align: left;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 12px;
   font-size: 1.2rem;
   color: white;
   font-family: open sans;
   margin: 0;
 }
 
-h1 {
+h1, h2, h3, h4 {
   color: #ffd700;
-  padding: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 12px;
   font-size: 2.7rem;
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
